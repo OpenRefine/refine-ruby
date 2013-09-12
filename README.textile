@@ -1,4 +1,4 @@
-<h1>google-refine</h1> is a Ruby Gem client library for "Google Refine":http://code.google.com/p/google-refine/
+<h1>google-refine</h1> is a Ruby Gem client library for "OpenRefine"http://openrefine.org.  It was written for Google Refine 2.x, but should work with OpenRefine as well.
 
 If you want to port this to another language, check out the "Refine API":https://github.com/maxogden/refine-python/wiki/Refine-API documentation.
 
