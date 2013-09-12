@@ -60,7 +60,7 @@ You can use this gem to apply the operation set to the raw data from ruby. You w
 
 <pre>
   <code>
-    prj = Refine.new('date cleanup', 'dates.txt')
+    prj = Refine.new('project_name' => 'date cleanup', 'file_name' => 'dates.txt')
     prj.apply_operations('operations.json')
     puts prj.export_rows('csv')
     prj.delete_project
