@@ -2,6 +2,8 @@
 
 If you want to port this to another language, check out the "Refine API":https://github.com/maxogden/refine-python/wiki/Refine-API documentation.
 
+NOTE: The Refine client/server protocol is an internal API which is subject to change, so use at your own risk (although it has stayed relatively stable for the last few versions).
+
 h2. Install
 
 @gem install google-refine@
