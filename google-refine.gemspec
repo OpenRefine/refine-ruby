@@ -28,10 +28,15 @@ Gem::Specification.new do |s|
   s.homepage = "http://github.com/maxogden/refine-ruby"
   s.require_paths = ["lib"]
   s.test_files = [
-    "test/test.rb"
+    "test/*"
   ]
 
   s.add_dependency('json', ">= 1.4.6")
   s.add_dependency('httpclient', ">= 2.1.6.1")
-end
+  s.add_development_dependency "bundler", "~> 1.10"
+  s.add_development_dependency "rake", "~> 10.0"
+  s.add_development_dependency "minitest", "~> 5.11"
+  s.add_development_dependency "pry"
+  s.add_development_dependency 'addressable', '~> 2.5'
 
+end
